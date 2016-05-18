@@ -11,7 +11,7 @@
     "zuul": "^3.10.1"
   },
   "scripts": {
-    "ci" : "node test"
+    "ci" : "node test",
     "start": "budo testing.js --lives",
     "test": "node test && zuul --ui tape --local 9966 -- test.js"
   },
