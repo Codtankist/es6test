@@ -8,4 +8,6 @@ test('should say something', function(assert) {
 	var result 	= bear.growl()
 	assert.equal(result, 'The any bear says grrr')
 	assert.end()
+
+	
 })
